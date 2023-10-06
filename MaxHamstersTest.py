@@ -26,5 +26,3 @@ class Test(unittest.TestCase):
         hamsters = [[3, 2], [8, 2], [5, 2]]
         result = max_hamsters(s, hamsters)
         self.assertEqual(2, result)
-
-

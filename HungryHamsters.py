@@ -53,8 +53,8 @@ def max_hamsters(food_amount, hamsters):
 
     while end < len(hamsters):
 
-        day_norm, greeding = hamsters[end]
-        food_needed = day_norm + greeding * (end - start)
+        day_norm, greed = hamsters[end]
+        food_needed = day_norm + greed * (end - start)
 
         if total_food_needed + food_needed <= food_amount:
             max_hamsters_count = max(max_hamsters_count, end - start + 1)
