@@ -16,6 +16,7 @@ def in_order_traversal_next(node: BinaryTree):
         while node.left is not None:
             node = node.left
         return node
-    while node.parent and node.parent.right == node:
+    temp = node
+    while node.parent and temp > node.parent:
         node = node.parent
     return node.parent
