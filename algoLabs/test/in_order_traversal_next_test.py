@@ -4,7 +4,7 @@ tests for in order traversal next
 
 import unittest
 
-from in_order_traversal_next import in_order_traversal_next, BinaryTree
+from algoLabs.src.in_order_traversal_next import in_order_traversal_next, BinaryTree
 
 
 class TestInOrderTraversalNext(unittest.TestCase):
