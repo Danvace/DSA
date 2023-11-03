@@ -1,4 +1,13 @@
+"""
+the file with the implementation of the task
+"""
+
+
 class BinaryTree:
+    """
+    A binary tree node class.
+    """
+
     def __init__(self, value, left=None, right=None, parent=None):
         self.value = value
         self.left = left
@@ -7,6 +16,10 @@ class BinaryTree:
 
 
 def in_order_traversal_next(node: BinaryTree):
+    """
+    :param node:
+    :return: the next element in the in-order traversal of the tree
+    """
     if node is None:
         return None
     if node.parent and node.parent.left == node and not node.right:
