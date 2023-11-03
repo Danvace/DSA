@@ -39,6 +39,6 @@ def write_file(matrix_with_letters, file_reference):
 
 
 if __name__ == "__main__":
-    a = read_file("input.txt")
-    flood_fill(a[0], a[1], a[2], a[0][a[1]][a[2]], a[3])
-    write_file(a[0], "output.txt")
+    matrix_from_file, start_x, start_y, replacement_color_from_file = read_file("input.txt")
+    flood_fill(matrix_from_file, start_x, start_y, matrix_from_file[start_x][start_y], replacement_color_from_file)
+    write_file(matrix_from_file, "output.txt")

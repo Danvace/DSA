@@ -23,7 +23,7 @@ class TestFloodFill(unittest.TestCase):
         flood_fill(matrix1, start_x1, start_y1, target_color1, replacement_color1)
         self.assertEqual(matrix1, expected_matrix1)
 
-    def test_complex_flood_fill(self):
+    def test_no_change_flood_fill(self):
         # Test Case 2: Test with a 4x4 matrix
         matrix2 = [
             ['A', 'B', 'B', 'B'],
