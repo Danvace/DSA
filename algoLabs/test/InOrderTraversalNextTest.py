@@ -1,6 +1,6 @@
 import unittest
 
-from InOrderTraversalNext import in_order_traversal_next, BinaryTree
+from algoLabs.src.InOrderTraversalNext import in_order_traversal_next, BinaryTree
 
 
 # Import your BinaryTree class and in_order_traversal_next function here

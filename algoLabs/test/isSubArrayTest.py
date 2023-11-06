@@ -1,5 +1,5 @@
 import unittest
-from algorithms import is_subarray
+from algoLabs.src.algorithms import is_subarray
 
 nums_1 = [1, 2, 3, 4]
 nums_2 = [1, 2, 3, 4]

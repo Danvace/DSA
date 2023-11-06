@@ -1,5 +1,5 @@
 from unittest import TestCase
-from TargetWith3Numbers import target_with3
+from algoLabs.src.TargetWith3Numbers import target_with3
 
 
 class Test(TestCase):
