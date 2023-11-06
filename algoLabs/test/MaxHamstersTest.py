@@ -1,5 +1,5 @@
 import unittest
-from HungryHamsters import max_hamsters
+from algoLabs.src.HungryHamsters import max_hamsters
 
 
 class Test(unittest.TestCase):

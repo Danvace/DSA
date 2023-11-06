@@ -1,5 +1,5 @@
 import unittest
-from algorithms import marichka_method
+from algoLabs.src.algorithms import marichka_method
 
 test_5x5 = [[1, 2, 3, 4, 5],
             [10, 9, 8, 7, 6],
